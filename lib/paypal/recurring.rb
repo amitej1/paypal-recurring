@@ -45,6 +45,8 @@ module PayPal
       #
       attr_accessor :signature
 
+      attr_accessor :subject
+
       # Set seller id. Will be used to verify IPN.
       #
       #
